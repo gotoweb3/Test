@@ -3,7 +3,7 @@
 package gmssl
 
 /*
-#cgo darwin CFLAGS: -I/usr/local/include
-#cgo darwin LDFLAGS: -L/usr/local/lib -lcrypto
+#cgo CFLAGS: -I/usr/include
+#cgo LDFLAGS: -L/usr/local/ssl/lib/ -lcrypto
 */
 import "C"
